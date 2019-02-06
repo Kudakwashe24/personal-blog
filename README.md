@@ -13,3 +13,13 @@
 - Generic Responses are set, in which form their is need.
 - Routing Generic need to set.
 - Logging where there is a need.
+
+## express --view=ejs
+* This is the second commmand that I use and the following was created:
+
+- bin: / www
+- public: / images, javascripts and stylesheets
+- routes: / index.js and users.js
+- views: / error.js and index.js
+- app.js
+- package.json
