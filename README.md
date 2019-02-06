@@ -26,3 +26,8 @@
 
 ## npm install -g json-server
 - creates a db.json file with some data
+
+## json-server --watch db.json
+- If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to db.json.
+- Your request body JSON should be object enclosed, just like the GET output.
+- Id values are not mutable. Any id value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will    be respected, but only if not already taken.
