@@ -31,3 +31,9 @@
 - If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to db.json.
 - Your request body JSON should be object enclosed, just like the GET output.
 - Id values are not mutable. Any id value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will    be respected, but only if not already taken.
+
+## npm install
+- With this command you'll be creating a node_modules folder which contains all the neccessary modules
+
+## npm install nodemon --save
+- nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the    directory are detected.
