@@ -23,3 +23,6 @@
 - views: / error.js and index.js
 - app.js
 - package.json
+
+## npm install -g json-server
+- creates a db.json file with some data
